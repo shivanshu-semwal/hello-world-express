@@ -1,14 +1,16 @@
 # Simple Node Web Application
 
-- backend framework used, `express`
-    - install: `npm install express`
-- templating engine used, `handlebars`
-    - install: `npm install express-handlebars`
-- unit testing freamework used, `jest`
-    - install: `npm install --save-dev jest`
-    - run test: `npm test`
-- code and test coverage `jest`
+- **backend framework**, `express`
+    - *install:* `npm install express`
+- **templating engine**, `handlebars`
+    - **install:* `npm install express-handlebars`
+- **unit testing framework**, `jest`
+    - *install:* `npm install --save-dev jest`
+    - run test: `npm test`, add `"test": "jest"` to scripts
+- **code and test coverage**, `jest`
     - `npm test -- --coverage`
-- integration framework used, `puppeteer`
-    - install: `npm install --save-dev puppeteer`
-
+- **integration framework**, `puppeteer`
+    - *install:* `npm install --save-dev puppeteer`
+- **linting**, `eslint`
+    - *install:* `npm install --save-dev eslint`
+    - *configure:* `./node_modules/.bin/eslint --init`
